@@ -1,13 +1,12 @@
 nav {
     margin: 0 auto;
     border-bottom: 1px #eee solid;
-
 }
 
 .container {
     max-width: 800px;
     position: relative;
-    padding-bottom: 15px;
+    /* padding-bottom: 15px; */
 } 
 
 .nav-item {
@@ -28,7 +27,7 @@ nav {
     padding: 5px;
     text-align: center;
     list-style: none;
-    width: 75px;
+    width: 40px;
 }
 
 .nav-name {
@@ -38,3 +37,25 @@ nav {
     margin-right: 15px;
 }
 
+.nav-icons {
+    width: 40px;
+    height: 40px;
+}
+
+.nav-icons-linkedin {
+    width: 30x;
+    height: 30px;
+    padding-top: 5px;
+}
+
+.nav-half-left {
+    padding: 0 0 0 40px ;
+    height: 40px;
+
+}
+
+.nav-half-right {
+    padding: 0 20px 0 0 ;
+    height: 55px;
+
+}

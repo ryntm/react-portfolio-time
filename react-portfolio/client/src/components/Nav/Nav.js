@@ -5,19 +5,29 @@ function Nav() {
     return (
         <nav>
             <div className="container">
-                <ul>
-                    <li className="nav-item-left nav-name">Ryan Tam</li>
-                    <a href="/contact">
+                <div className="six columns nav-half-left">
+                    <ul>
+                        <li className="nav-item-left nav-name">Ryan Tam</li>
+                        <a href="https://github.com/ryntm">
+                            <li className="nav-item-left">
+                                <img  className="nav-icons" src="https://github.com/ryntm/react-portfolio-time/blob/master/react-portfolio/client/assets/images/GitHub-Mark.png?raw=true" />
+                            </li>
+                        </a>
+                        <a href="https://www.linkedin.com/in/ryanjtam/">
                         <li className="nav-item-left">
-                            <button className="button-primary">Resume</button>
-                        </li>
-                    </a>
+                                <img className="nav-icons-linkedin" src="https://github.com/ryntm/react-portfolio-time/blob/master/react-portfolio/client/assets/images/linkedin-icon-png--1600.png?raw=true" />
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+                <div className="six columns nav-half-right">
+                    <ul>
+                        <a href="/contact"><li className="nav-item">Contact</li></a>
+                        <a href="/portfolio"><li className="nav-item">Portfolio</li></a>
+                        <a href="/"><li className="nav-item">About</li></a>
 
-                    <a href="/contact"><li className="nav-item">Contact</li></a>
-                    <a href="/portfolio"><li className="nav-item">Portfolio</li></a>
-                    <a href="/"><li className="nav-item">About</li></a>
-
-                </ul>
+                    </ul>
+                </div>
             </div>
         </nav>
     )
