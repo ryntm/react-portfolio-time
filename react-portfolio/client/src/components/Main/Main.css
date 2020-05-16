@@ -2,8 +2,13 @@
     max-width: 800px;
     margin: 0 auto;
     margin-top: 25px;
-    height: 500px;
+    height: 100%;
     border: 1px #eee solid;
     padding: 15px;
     width: 90%;
+    margin-bottom: 80px;
+}
+
+h1 {
+    font-family: 'Orbitron', sans-serif;
 }

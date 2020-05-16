@@ -1,11 +1,17 @@
 import React from 'react';
 import './Main.css';
+import Photo from '../Photo/Photo'
 
-function Main() {
+function Main(props) {
     return (
         <div className="main">
-            <h1>Hi, my name is Ryan!</h1>
-            <img src="" />
+            <div className="row">
+                {/* <div className="three columns">
+                </div> */}
+                <div className="twelve columns">
+                    {props.children}
+                </div>
+            </div>
 
 
         </div>
