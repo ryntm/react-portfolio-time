@@ -33,7 +33,7 @@ function Portfolio() {
                                     </ProjectImageDiv>
 
                                     <ProjectDetailsDiv>
-                                        <span>BookHunter</span><br/>
+                                        <span className="project-title">BookHunter</span><br/>
                                         <span>Deployed Link: N/A</span><br/>
                                         <span>Github Repo: <a href="https://github.com/AnnaliisaS/project1">HERE</a></span><br/>
                                     </ProjectDetailsDiv>
@@ -41,11 +41,11 @@ function Portfolio() {
 
                     <ProjectCard>
                                     <ProjectImageDiv>
-                                        https://github.com/ryntm/react-portfolio-time/blob/master/react-portfolio/client/assets/images/boothunter.png?raw=true
+                                    https://github.com/ryntm/react-portfolio-time/blob/master/react-portfolio/client/assets/images/pokequiz.jpg?raw=true
                                     </ProjectImageDiv>
 
                                     <ProjectDetailsDiv>
-                                        <span>Poke Quiz</span><br/>
+                                        <span className="project-title">Poke Quiz</span><br/>
                                         <span>Deployed Link: <a href="http://radiant-inlet-24995.herokuapp.com/">HERE</a></span><br/>
                                         <span>Github Repo: <a href="https://github.com/setocourtney/quiz-masters">HERE</a></span><br/>
                                     </ProjectDetailsDiv>
@@ -57,7 +57,7 @@ function Portfolio() {
                                     </ProjectImageDiv>
 
                                     <ProjectDetailsDiv>
-                                        <span>Share-ish</span><br/>
+                                        <span className="project-title">Share-ish</span><br/>
                                         <span>Deployed Link: N/A</span><br/>
                                         <span>Github Repo: <a href="https://github.com/Brigmu/Sharemasters">HERE</a></span><br/>
                                     </ProjectDetailsDiv>
