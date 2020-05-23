@@ -6,3 +6,16 @@
 .resume-button {
     margin-top: 10px;
 }
+
+.project-title {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.2em;
+}
+
+ul {
+    list-style: none;
+}
+
+hr.mini-projects {
+    margin: 15px 0 15px 0
+}
