@@ -6,6 +6,7 @@ import ProjectArea from '../../components/ProjectArea/ProjectArea';
 import ProjectCard from '../../components/ProjectCard/ProjectCard';
 import ProjectImageDiv from '../../components/ProjectImageDiv/ProjectImageDiv';
 import ProjectDetailsDiv from '../../components/ProjectDetailsDiv/ProjectDetailsDiv';
+import ProjectMiniCard from '../../components/ProjectMiniCard/ProjectMiniCard';
 import PortfolioItemDiv from '../../components/PortfolioItemDiv/PortfolioItemDiv';
 import PortfolioItemInfoDiv from '../../components/PortfolioItemInfoDiv/PortfolioItemInfoDiv';
 import './Portfolio.css';
@@ -25,44 +26,114 @@ function Portfolio() {
                     </button>
                 </div>
                 <hr />
+                    <h1>Collaborative Projects</h1>
                 <ProjectArea>
-
                     <ProjectCard>
-                                    <ProjectImageDiv>
-                                        https://github.com/ryntm/react-portfolio-time/blob/master/react-portfolio/client/assets/images/boothunter.png?raw=true
-                                    </ProjectImageDiv>
+                        <ProjectImageDiv>
+                            https://github.com/ryntm/react-portfolio-time/blob/master/react-portfolio/client/assets/images/boothunter.png?raw=true
+                        </ProjectImageDiv>
 
-                                    <ProjectDetailsDiv>
-                                        <span className="project-title">BookHunter</span><br/>
-                                        <span>Deployed Link: N/A</span><br/>
-                                        <span>Github Repo: <a href="https://github.com/AnnaliisaS/project1">HERE</a></span><br/>
-                                    </ProjectDetailsDiv>
+                        <ProjectDetailsDiv>
+                            <span className="project-title">BookHunter</span><br/>
+                            <span>Deployed Link: N/A</span><br/>
+                            <span>Github Repo: <a href="https://github.com/AnnaliisaS/project1">HERE</a></span><br/>
+                        </ProjectDetailsDiv>
                     </ProjectCard>
 
-                    <ProjectCard>
-                                    <ProjectImageDiv>
-                                    https://github.com/ryntm/react-portfolio-time/blob/master/react-portfolio/client/assets/images/pokequiz.jpg?raw=true
-                                    </ProjectImageDiv>
 
-                                    <ProjectDetailsDiv>
-                                        <span className="project-title">Poke Quiz</span><br/>
-                                        <span>Deployed Link: <a href="http://radiant-inlet-24995.herokuapp.com/">HERE</a></span><br/>
-                                        <span>Github Repo: <a href="https://github.com/setocourtney/quiz-masters">HERE</a></span><br/>
-                                    </ProjectDetailsDiv>
+                    <ProjectCard>
+                        <ProjectImageDiv>
+                            https://github.com/ryntm/react-portfolio-time/blob/master/react-portfolio/client/assets/images/pokequiz.jpg?raw=true
+                        </ProjectImageDiv>
+
+                        <ProjectDetailsDiv>
+                            <span className="project-title">Poke Quiz</span><br/>
+                            <span>Deployed Link: <a href="http://radiant-inlet-24995.herokuapp.com/">HERE</a></span><br/>
+                            <span>Github Repo: <a href="https://github.com/setocourtney/quiz-masters">HERE</a></span><br/>
+                        </ProjectDetailsDiv>
                     </ProjectCard>
 
-                    <ProjectCard>
-                                    <ProjectImageDiv>
-                                        https://github.com/ryntm/react-portfolio-time/blob/master/react-portfolio/client/assets/images/boothunter.png?raw=true
-                                    </ProjectImageDiv>
 
-                                    <ProjectDetailsDiv>
-                                        <span className="project-title">Share-ish</span><br/>
-                                        <span>Deployed Link: N/A</span><br/>
-                                        <span>Github Repo: <a href="https://github.com/Brigmu/Sharemasters">HERE</a></span><br/>
-                                    </ProjectDetailsDiv>
+                    <ProjectCard>
+                        <ProjectImageDiv>
+                            https://github.com/ryntm/react-portfolio-time/blob/master/react-portfolio/client/assets/images/boothunter.png?raw=true
+                        </ProjectImageDiv>
+
+                        <ProjectDetailsDiv>
+                            <span className="project-title">Share-ish</span><br/>
+                            <span>Deployed Link: N/A</span><br/>
+                            <span>Github Repo: <a href="https://github.com/Brigmu/Sharemasters">HERE</a></span><br/>
+                        </ProjectDetailsDiv>
                     </ProjectCard>
                     
+
+                </ProjectArea>
+                <hr/>
+                <ProjectArea>
+                    <h1>Other Projects</h1>
+                    <ProjectMiniCard>
+                        <span className="project-title">Ryan's Burger!</span>
+                        <ul>
+                            <li>
+                                     Deployed Link: <a href="https://github.com/ryntm/ryans-burgers">HERE</a>
+                            </li>
+                            <li>
+                                Github Repo: <a href="https://boiling-shore-26987.herokuapp.com/">HERE</a>
+                            </li>
+                        </ul>
+                    </ProjectMiniCard>
+                    <hr className="mini-projects"/>
+                    
+                    <ProjectMiniCard>
+                        <span className="project-title">Fitness Tracker</span>
+                        <ul>
+                            <li>
+                                Deployed Link: <a href="https://github.com/ryntm/fitness-tracker">HERE</a>
+                            </li>
+                            <li>
+                                Github Repo: <a href="https://floating-brook-46863.herokuapp.com/">HERE</a>
+                            </li>
+                        </ul>
+                    </ProjectMiniCard>
+                    <hr className="mini-projects" />
+
+                    <ProjectMiniCard>
+                        <span className="project-title">The Office Quiz</span>
+                        <ul>
+                            <li>
+                                Deployed Link: N/A
+                            </li>
+                            <li>
+                                Github Repo: <a href="https://boiling-shore-26987.herokuapp.com/">HERE</a>
+                            </li>
+                        </ul>
+                    </ProjectMiniCard>
+                    <hr className="mini-projects" />
+
+                    <ProjectMiniCard>
+                        <span className="project-title">Note Taker</span>
+                        <ul>
+                            <li>
+                                Deployed Link: <a href="https://github.com/ryntm/note-taker-time">HERE</a>
+                            </li>
+                            <li>
+                                Github Repo: <a href="https://rocky-escarpment-79412.herokuapp.com/">HERE</a>
+                            </li>
+                        </ul>
+                    </ProjectMiniCard>
+                    <hr className="mini-projects" />
+
+                    <ProjectMiniCard>
+                        <span className="project-title">PWA Budget Tracker</span>
+                        <ul>
+                            <li>
+                                Deployed Link: <a href="https://github.com/ryntm/pwa-budget-tracker">HERE</a>
+                            </li>
+                            <li>
+                                Github Repo: <a href="https://calm-bayou-69361.herokuapp.com/">HERE</a>
+                            </li>
+                        </ul>
+                    </ProjectMiniCard>
 
                 </ProjectArea>
             </Main>
