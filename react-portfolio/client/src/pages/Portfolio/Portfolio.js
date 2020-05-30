@@ -21,9 +21,11 @@ function Portfolio() {
                 <div className="resume-area">
                     <span>Click Here for my resume!</span>
                     <br />
-                    <button className="button-primary resume-button">
-                        RESUME
-                    </button>
+                    <a href="">
+                        <button className="button-primary resume-button">
+                            RESUME
+                        </button>
+                    </a>
                 </div>
                 <hr />
                     <h1>Collaborative Projects</h1>
@@ -34,7 +36,7 @@ function Portfolio() {
                         </ProjectImageDiv>
 
                         <ProjectDetailsDiv>
-                            <span className="project-title">BookHunter</span><br/>
+                            <span className="project-title">#1 BookHunter</span><br/>
                             <span>Deployed Link: N/A</span><br/>
                             <span>Github Repo: <a href="https://github.com/AnnaliisaS/project1">HERE</a></span><br/>
                         </ProjectDetailsDiv>
@@ -47,7 +49,7 @@ function Portfolio() {
                         </ProjectImageDiv>
 
                         <ProjectDetailsDiv>
-                            <span className="project-title">Poke Quiz</span><br/>
+                            <span className="project-title">#2 Poke Quiz</span><br/>
                             <span>Deployed Link: <a href="http://radiant-inlet-24995.herokuapp.com/">HERE</a></span><br/>
                             <span>Github Repo: <a href="https://github.com/setocourtney/quiz-masters">HERE</a></span><br/>
                         </ProjectDetailsDiv>
@@ -56,11 +58,11 @@ function Portfolio() {
 
                     <ProjectCard>
                         <ProjectImageDiv>
-                            https://github.com/ryntm/react-portfolio-time/blob/master/react-portfolio/client/assets/images/boothunter.png?raw=true
+                        https://github.com/ryntm/react-portfolio-time/blob/master/react-portfolio/client/assets/images/shareish.png?raw=true
                         </ProjectImageDiv>
 
                         <ProjectDetailsDiv>
-                            <span className="project-title">Share-ish</span><br/>
+                            <span className="project-title">#3 Share-ish</span><br/>
                             <span>Deployed Link: N/A</span><br/>
                             <span>Github Repo: <a href="https://github.com/Brigmu/Sharemasters">HERE</a></span><br/>
                         </ProjectDetailsDiv>
