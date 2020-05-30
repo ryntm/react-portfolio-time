@@ -21,9 +21,11 @@ function Portfolio() {
                 <div className="resume-area">
                     <span>Click Here for my resume!</span>
                     <br />
-                    <button className="button-primary resume-button">
-                        RESUME
-                    </button>
+                    <a href="">
+                        <button className="button-primary resume-button">
+                            RESUME
+                        </button>
+                    </a>
                 </div>
                 <hr />
                     <h1>Collaborative Projects</h1>
