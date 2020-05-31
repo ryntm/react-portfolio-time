@@ -9,7 +9,15 @@ function Home() {
         <div>
             <Nav />
             <Main>
-
+                <div className="resume-area">
+                    <span>My contact information can be found in my resume.</span>
+                    <br />
+                    <a href="https://github.com/ryntm/react-portfolio-time/blob/master/react-portfolio/client/assets/Resume.docx?raw=true">
+                        <button className="button-primary resume-button">
+                            RESUME
+                        </button>
+                    </a>
+                </div>
             </Main>
             <Footer />
         </div>

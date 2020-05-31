@@ -1,6 +1,5 @@
 import React from 'react';
 import './Main.css';
-import Photo from '../Photo/Photo'
 
 function Main(props) {
     return (

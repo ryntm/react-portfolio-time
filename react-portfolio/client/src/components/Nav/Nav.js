@@ -7,15 +7,17 @@ function Nav() {
             <div className="container">
                 <div className="six columns nav-half-left">
                     <ul>
-                        <li className="nav-item-left nav-name">Ryan Tam</li>
+                        <a href="/" className="logo-link">
+                            <li className="nav-item-left nav-name">Ryan Tam</li>
+                        </a>
                         <a href="https://github.com/ryntm">
                             <li className="nav-item-left">
-                                <img  className="nav-icons" src="https://github.com/ryntm/react-portfolio-time/blob/master/react-portfolio/client/assets/images/GitHub-Mark.png?raw=true" />
+                                <img className="nav-icons" alt="github-icon" src="https://github.com/ryntm/react-portfolio-time/blob/master/react-portfolio/client/assets/images/GitHub-Mark.png?raw=true" />
                             </li>
                         </a>
                         <a href="https://www.linkedin.com/in/ryanjtam/">
                         <li className="nav-item-left">
-                                <img className="nav-icons-linkedin" src="https://github.com/ryntm/react-portfolio-time/blob/master/react-portfolio/client/assets/images/linkedin-icon-png--1600.png?raw=true" />
+                                <img className="nav-icons-linkedin" alt="linkedin-icon" src="https://github.com/ryntm/react-portfolio-time/blob/master/react-portfolio/client/assets/images/linkedin-icon-png--1600.png?raw=true" />
                             </li>
                         </a>
                     </ul>

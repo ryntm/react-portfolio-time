@@ -4,7 +4,7 @@ import './ProjectImageDiv.css';
 function ProjectImageDiv(props) {
     return (
         <div>
-            <img className="port-image-div" src={props.children} />
+            <img className="port-image-div" alt="project" src={props.children} />
         </div>
     )
 }

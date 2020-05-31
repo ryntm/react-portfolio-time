@@ -7,8 +7,6 @@ import ProjectCard from '../../components/ProjectCard/ProjectCard';
 import ProjectImageDiv from '../../components/ProjectImageDiv/ProjectImageDiv';
 import ProjectDetailsDiv from '../../components/ProjectDetailsDiv/ProjectDetailsDiv';
 import ProjectMiniCard from '../../components/ProjectMiniCard/ProjectMiniCard';
-import PortfolioItemDiv from '../../components/PortfolioItemDiv/PortfolioItemDiv';
-import PortfolioItemInfoDiv from '../../components/PortfolioItemInfoDiv/PortfolioItemInfoDiv';
 import './Portfolio.css';
 
 
@@ -21,7 +19,7 @@ function Portfolio() {
                 <div className="resume-area">
                     <span>Click Here for my resume!</span>
                     <br />
-                    <a href="">
+                    <a href="https://github.com/ryntm/react-portfolio-time/blob/master/react-portfolio/client/assets/Resume.docx?raw=true">
                         <button className="button-primary resume-button">
                             RESUME
                         </button>
