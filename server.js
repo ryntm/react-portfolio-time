@@ -1,4 +1,5 @@
 const express = require("express");
+const path = require("path");
 
 // const routes = require("./routes");
 const app = express();
@@ -8,17 +9,11 @@ const PORT = process.env.PORT || 3001;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 // Serve up static assets (usually on heroku)
-if (process.env.NODE_ENV === "production") {
-  app.use(express.static("client/build"));
-}
+// if (process.env.NODE_ENV === "production") {
+//   app.use(express.static("client/build"));
+// }
 
-// if(process.env.NODE_ENV == 'production'){ app.use(express.static(path.join(__dirname,'client/build')))};
-app.get("*", (req, res) => {
-  let url = path.join(__dirname, '../client/build', 'index.html');
-  if (!url.startsWith('/app/')) // since we're on local windows
-    url = url.substring(1);
-  res.sendFile(url);
-});
+if(process.env.NODE_ENV == 'production'){ app.use(express.static(path.join(__dirname,'client/build')))};
 
 
 // Start the API server
