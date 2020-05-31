@@ -12,12 +12,12 @@ function Nav() {
                         </a>
                         <a href="https://github.com/ryntm">
                             <li className="nav-item-left">
-                                <img className="nav-icons" alt="github-icon" src="https://github.com/ryntm/react-portfolio-time/blob/master/react-portfolio/client/assets/images/GitHub-Mark.png?raw=true" />
+                                <img className="nav-icons" alt="github-icon" src="https://github.com/ryntm/react-portfolio-time/blob/master/client/assets/images/GitHub-Mark.png?raw=true" />
                             </li>
                         </a>
                         <a href="https://www.linkedin.com/in/ryanjtam/">
                         <li className="nav-item-left">
-                                <img className="nav-icons-linkedin" alt="linkedin-icon" src="https://github.com/ryntm/react-portfolio-time/blob/master/react-portfolio/client/assets/images/linkedin-icon-png--1600.png?raw=true" />
+                                <img className="nav-icons-linkedin" alt="linkedin-icon" src="https://github.com/ryntm/react-portfolio-time/blob/master/client/assets/images/linkedin-icon-png--1600.png?raw=true" />
                             </li>
                         </a>
                     </ul>
