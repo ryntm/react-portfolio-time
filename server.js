@@ -9,18 +9,19 @@ const PORT = process.env.PORT || 3001;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 // Serve up static assets (usually on heroku)
-// if (process.env.NODE_ENV === "production") {
-//   app.use(express.static("client/build"));
-// }
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static("client/build"));
+}
 
-app.get('/portfolio', (req, res) => {
-  res.sendFile((path.join(__dirname, "client/build")))
-});
-app.get('/contact', (req, res) => {
-  res.sendFile((path.join(__dirname, "client/build")))
-});
+// app.get('/portfolio', (req, res) => {
+//   res.sendFile((path.join(__dirname, "client/build")))
+// });
+// app.get('/contact', (req, res) => {
+//   res.sendFile((path.join(__dirname, "client/build")))
+// });
 
-if(process.env.NODE_ENV == 'production'){ app.use(express.static(path.join(__dirname,'client/build')))};
+// if(process.env.NODE_ENV == 'production'){ 
+  // app.use(express.static(path.join(__dirname,'client/build')))};
 
 
 // Start the API server
