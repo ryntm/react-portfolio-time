@@ -13,6 +13,13 @@ app.use(express.json());
 //   app.use(express.static("client/build"));
 // }
 
+app.get('/portfolio', (req, res) => {
+  res.sendFile((path.join(__dirname, "./client/public.index.html")))
+});
+app.get('/contact', (req, res) => {
+  res.sendFile((path.join(__dirname, "./client/public.index.html")))
+});
+
 if(process.env.NODE_ENV == 'production'){ app.use(express.static(path.join(__dirname,'client/build')))};
 
 
