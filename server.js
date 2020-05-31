@@ -23,6 +23,7 @@ if (process.env.NODE_ENV === "production") {
 // if(process.env.NODE_ENV == 'production'){ 
   // app.use(express.static(path.join(__dirname,'client/build')))};
 
+app.use('*', express.static(path.join(__dirname, "client", "build")))
 
 // Start the API server
 app.listen(PORT, function() {
