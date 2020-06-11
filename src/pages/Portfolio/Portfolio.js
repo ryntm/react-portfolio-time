@@ -19,7 +19,7 @@ function Portfolio() {
                 <div className="resume-area">
                     <span>Click Here for my resume!</span>
                     <br />
-                    <a href="https://github.com/ryntm/react-portfolio-time/blob/master/client/assets/Resume.docx?raw=true">
+                    <a href="https://github.com/ryntm/react-portfolio-time/blob/master/assets/Resume.docx?raw=true">
                         <button className="button-primary resume-button">
                             RESUME
                         </button>
@@ -30,7 +30,7 @@ function Portfolio() {
                 <ProjectArea>
                     <ProjectCard>
                         <ProjectImageDiv>
-                            https://github.com/ryntm/react-portfolio-time/blob/master/client/assets/images/boothunter.png?raw=true
+                        https://github.com/ryntm/react-portfolio-time/blob/master/assets/images/boothunter.png?raw=true
                         </ProjectImageDiv>
 
                         <ProjectDetailsDiv>
@@ -43,7 +43,7 @@ function Portfolio() {
 
                     <ProjectCard>
                         <ProjectImageDiv>
-                        https://github.com/ryntm/react-portfolio-time/blob/master/client/assets/images/pokequiz.jpg?raw=true
+                        https://github.com/ryntm/react-portfolio-time/blob/master/assets/images/pokequiz.jpg?raw=true
                         </ProjectImageDiv>
 
                         <ProjectDetailsDiv>
@@ -56,7 +56,7 @@ function Portfolio() {
 
                     <ProjectCard>
                         <ProjectImageDiv>
-                        https://github.com/ryntm/react-portfolio-time/blob/master/client/assets/images/shareish.png?raw=true
+                        https://github.com/ryntm/react-portfolio-time/blob/master/assets/images/shareish.png?raw=true
                         </ProjectImageDiv>
 
                         <ProjectDetailsDiv>
